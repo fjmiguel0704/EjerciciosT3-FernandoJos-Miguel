@@ -19,22 +19,23 @@ public class Ejercicio3 {
 		//Incrementamos i mientras sea menor o igual a numero
 		for(int i=1;i<=numero;i++) {
 			
-			//Incrementamos b mientras sea menor o igual a numero menos 1 e imprimimos un espacio en blanco
+			//Incrementamos b mientras sea menor o igual al numero menos el valor de i, e imprimimos un espacio en blanco
 			for (int b =1 ; b<=numero-i;b++) {
 				System.out.print(" ");
 			}
 			
-			//Incrementamos a mientras sea menor o igual a i por 2 menos 1 e imprimimos un asterisco
-			for(int a=1; a<=(i*2)-1;a++) {
-				System.out.print("*");
+			//Incrementamos a mientras sea menor o igual a i, e imprimimos un asterisco y seguido un espacio
+			for(int a=1; a<=i;a++) {
+				System.out.print("* ");
 			}
 			
 			//Imprimimos un salto de línea
 			System.out.println();
 			
-			//Cerramos el Scanner
-			read.close();
 		}
+		
+		//Cerramos el Scanner
+		read.close();
 
 	}
 
