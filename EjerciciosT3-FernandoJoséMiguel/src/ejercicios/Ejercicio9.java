@@ -6,6 +6,17 @@ public class Ejercicio9 {
 
 	public static void main(String[] args) {
 		
+		/*Pruebas: 
+    	 * -0 ejecuciones: 
+    	 * Introduzco 0. Resultado esperado: "Error". Resultado obtenido: "Error"
+    	 * -1 ejecución:
+    	 * Introduzco 1. Resultado esperado: "1 dígito". Resultado obtenido: "1 dígito"
+    	 * -Máximas ejecuciones:
+    	 * No se puede realizar 
+    	 * -Valor intermedio de ejecuciones:
+    	 * Introduzco 10. Resultado esperado: "10 dígitos". Resultado obtenido: "10 dígitos"
+    	 */
+		
 		//Número guardará el dato introducido por teclado
 		long numero;
 		

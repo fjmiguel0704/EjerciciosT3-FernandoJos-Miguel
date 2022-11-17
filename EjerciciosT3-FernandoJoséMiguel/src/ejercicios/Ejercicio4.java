@@ -5,6 +5,17 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
 	public static void main(String[] args) {
+		
+		/*Pruebas: 
+    	 * -0 ejecuciones: 
+    	 * Introduzco 0 y 0. Resultado esperado: "0". Resultado obtenido: "0"
+    	 * -1 ejecución:
+    	 * Introduzco 1 y 1. Resultado esperado: "1". Resultado obtenido: "1" 
+    	 * -Máximas ejecuciones:
+    	 * No se puede realizar 
+    	 * -Valor intermedio de ejecuciones:
+    	 * Introduzco 8 y 4. Resultado esperado: "4" . Resultado obtenido: "4" 
+    	 */
 	
 		//Guardará el primer dato introducido por teclado
 		int num1=0;

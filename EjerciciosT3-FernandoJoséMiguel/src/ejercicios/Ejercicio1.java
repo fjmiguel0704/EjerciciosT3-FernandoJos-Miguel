@@ -5,6 +5,18 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
     public static void main(String[] args) {
+    	
+    	/*Pruebas: 
+    	 * -0 ejecuciones: 
+    	 * Introduzco 24 horas. Resultado esperado: "Error". Resultado obtenido: "Error"
+    	 * -1 ejecución:
+    	 * Introduzco 59 segundos y 1 segundo a incrementar. Resultado esperado: Segundos=0 y un minutos más. Resultado obtenido: segundos=0 y 1 minuto más
+    	 * -Máximas ejecuciones:
+    	 * No se puede realizar
+    	 * -Valor intermedio de ejecuciones:
+    	 *Ej1: Introduzco 59 minutos, 59 segundos y 1 seguundo a incrementar. Resultado esperado: 1 hora más, minutos=0 y segundos=0. Resultado obtenido: Resultado esperado: 1 hora más, minutos=0 y segundos=0
+    	 *Ej2: Introduzco 58 minutos, 58 segundos y 200 segundos a incrementar. Resultado esperado: 1 hora más, minutos=2 y segundos=18. Resultado obtenido: 1 hora más, minutos=2 y segundos=18
+    	 */
         
         //Creamos las variables. Horas, minutos y segundos. Además de segIncre, que serán los segundos que el usuario desee incrementar
         int horas, minutos, segundos, segIncre=0;

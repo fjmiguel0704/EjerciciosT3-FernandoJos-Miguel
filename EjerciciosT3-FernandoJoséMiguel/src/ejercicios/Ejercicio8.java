@@ -6,6 +6,17 @@ public class Ejercicio8 {
 
 	public static void main(String[] args) {
 		
+		/*Pruebas: 
+    	 * -0 ejecuciones: 
+    	 * Introduzco 0. Resultado esperado: 1 número introducido y 0 fallos. Resultado obtenido: 1 número introducido y 0 fallos
+    	 * -1 ejecución:
+    	 * Introduzco 1 y 0. Resultado esperado: 2 números introducidos y 1 fallo. Resultado obtenido: 2 números introducidos y 1 fallo
+    	 * -Máximas ejecuciones:
+    	 * Introduzco un número siempre mayor al anterior.  Resultado esperado: Pida otro número. Resultado obtenido: Pida otro número
+    	 * -Valor intermedio de ejecuciones:
+    	 * Introduzco 6, 9, 12, 11, 0. Resultado esperado: 5 números introducidos y 2 fallos. Resultado obtenido: 5 números introducidos y 2 fallos    	
+    	 */
+		
 		//Número guardará el dato introducido por teclado
 		int numero1=1;
 		

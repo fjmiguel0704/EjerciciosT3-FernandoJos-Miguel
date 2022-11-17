@@ -6,6 +6,18 @@ public class Ejercicio10 {
 
 	public static void main(String[] args) {
 		
+		/*Pruebas: 
+    	 * -0 ejecuciones: 
+    	 * Introduzco 0. Resultado esperado: "Capicúa". Resultado obtenido: "Capicúa"
+    	 * -1 ejecución:
+    	 * Introduzco 1. Resultado esperado: "Capicúa". Resultado obtenido: "Capicúa"
+    	 * -Máximas ejecuciones:
+    	 * No se puede realizar 
+    	 * -Valor intermedio de ejecuciones:
+    	 * Ej1: Introduzco 2564. Resultado esperado: "No Capicúa". Resultado obtenido: "No Capicúa"
+    	 * Ej2: Introduzco 2552. Resultado esperad: "Capicúa". Resultado obtenido: "Capicúa"
+    	 */
+		
 		//Número guardará el dato introducido por teclado
 		int numero;
 		
